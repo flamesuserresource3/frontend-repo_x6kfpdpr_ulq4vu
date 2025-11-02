@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 199 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.6.191:3000/
+10:18:16 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/IdeaWorkbench.jsx:26:67: ERROR: Unterminated string literal
+10:18:17 AM [vite] ✨ new dependencies optimized: @splinetool/react-spline, lucide-react
+10:18:17 AM [vite] ✨ optimized dependencies changed. reloading
+10:18:17 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/IdeaWorkbench.jsx:26:67: ERROR: Unterminated string literal
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+10:18:17 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/IdeaWorkbench.jsx:26:67: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/IdeaWorkbench.jsx:26:67
+  
+  Unterminated string literal
+  24 |              className="mt-1 w-full rounded-md border border-slate-800 bg-slate-950 p-3 text-sm text-slate-200 outline-none focus:border-indigo-500"
+  25 |              defaultValue={
+  26 |                'Turn this problem into a concrete SaaS concept with:
+     |                                                                     ^
+  27 |  - ICP (who is it for)
+  28 |  - Key jobs-to-be-done
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+10:18:31 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/IdeaWorkbench.jsx:26:67: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/IdeaWorkbench.jsx:26:67
+  
+  Unterminated string literal
+  24 |              className="mt-1 w-full rounded-md border border-slate-800 bg-slate-950 p-3 text-sm text-slate-200 outline-none focus:border-indigo-500"
+  25 |              defaultValue={
+  26 |                'Turn this problem into a concrete SaaS concept with:
+     |                                                                     ^
+  27 |  - ICP (who is it for)
+  28 |  - Key jobs-to-be-done
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
