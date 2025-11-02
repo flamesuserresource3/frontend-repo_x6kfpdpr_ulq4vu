@@ -22,13 +22,7 @@ export default function IdeaWorkbench() {
           <textarea
             rows={4}
             className="mt-1 w-full rounded-md border border-slate-800 bg-slate-950 p-3 text-sm text-slate-200 outline-none focus:border-indigo-500"
-            defaultValue={
-              'Turn this problem into a concrete SaaS concept with:
-- ICP (who is it for)
-- Key jobs-to-be-done
-- 3 killer features
-- Monetization approach'
-            }
+            defaultValue={`Turn this problem into a concrete SaaS concept with:\n- ICP (who is it for)\n- Key jobs-to-be-done\n- 3 killer features\n- Monetization approach`}
           />
         </div>
 
